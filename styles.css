@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffd3e6; /* Blush pink background */
+}
+
+.notification-container {
+    text-align: center;
+}
+
+.notification-button {
+    background-color: #ff6666; /* Deep red color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.notification-button:active {
+    transform: scale(1.1); /* Stretch the button when clicked */
+    background-color: #a60000; /* Darker red color when clicked */
+}
+
+.notification-button:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+#notification-sound {
+    display: none; /* Hide the audio element */
+}
+
+.gif-container {
+    display: none;
+}
+
+.notification {
+    display: none;
+    background-color: #ffd3e6; /* Blush pink background */
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.notification p {
+    margin: 0;
+    padding: 5px 0;
+}
